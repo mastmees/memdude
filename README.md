@@ -11,7 +11,7 @@ around 500 ohms, as 1.5K may cause the clock signal distortion
 to the point wher false clock pulses will be detected, depending
 on your setup.
 
-
+<pre>
  AVR PORTB bit numbers            25LCxxx wiring
  in USBtinyISP                      
                                     +--------+
@@ -23,4 +23,4 @@ on your setup.
  5 - MOSI
  6 - MISO
  7 - SCK
-
+</pre>

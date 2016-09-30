@@ -432,13 +432,16 @@ if operation=='write':
   except FormatException as e:
     print ""
     print e
+    device=eeprom()
     device.power_off()
     exit(1)
   except IOError as e:
     print e
+    device=eeprom()
     device.power_off()
     exit(1)
   except KeyboardInterrupt:
+    device=eeprom()
     device=eeprom()
     device.power_off()
     exit(1)
